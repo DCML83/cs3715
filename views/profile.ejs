@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html>
+	<head>
+		<!-- js -->
+		<script src="js/profile.js"></script>
+		<title> <%= people.name %> </title>
+		<!-- css -->
+		<link rel = "stylesheet" href="/stylesheets/profile-desktop.css">
+		<link rel="stylesheet" href="/stylesheets/common.css">
+		<link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div id="headerTable">
+			<div id="headerTableRow">
+				<div id="headerTableCell1">
+					<a href="http://sc-6.cs.mun.ca/"><button>
+						<i class="fa fa-home" style="font-size:48px;color:#100010">
+						</i>
+					</button></a>
+				</div>
+				<div id="headerTableCell2">
+					<h3>
+						<img src="<%= people.profileP %>" style = "width: 200px; height: 200px;">
+					</h3>
+				</div>
+				<div id="headerTableCell3">
+					<p id="headerItem" style = "color: #99d9ea;">
+						<b>
+							Birthday: 
+						</b>
+						<%= people.birthday %>
+					</p>
+					<p id="headerItem" style = "color: #99d9ea;">
+						<b>
+							Address: 
+						</b>
+						<%= people.address %>
+					</p>
+					<p id="headerItem" style = "color: #99d9ea;">
+						<b>
+							Phone: 
+						</b>
+						<%= people.phone %>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<br>
+		<div id = "about_text" style = "text-align: center; text-size: 13px;">
+			<b>
+				About
+			</b>
+			<br>
+			<%= people.info %>
+		</div>
+		
+		<br>
+		<br>
+		<div id = "menu_buttons" style = "text-align: center;">
+			<a href="http://sc-6.cs.mun.ca/list/<%=people.id%>"><button id = "gitHub_button">
+				Friends
+			</button></a>
+			<a href="http://sc-6.cs.mun.ca/map/<%=people.id%>"><button id = "map_button">
+				Map
+			</button></a>
+			<button id = "instagram_button">
+				Instagram
+			</button>
+		</div>
+		<div id="carousel">
+
+			<a href="" class="navigation previous">&laquo;</a>
+			<a href="" class="navigation next">&raquo;</a>
+
+			<ul class="picSlide">
+				<% for(var i=0; i<people.friendList.length; i++) {%>
+   					<li><a href="http://sc-6.cs.mun.ca/profile/<%=people.friendList[i].id%>" ><img src="<%= people.friendList[i].profileP %>" alt="profileP"> </li></a>
+				<% } %>
+			</ul>
+		</div>
+		<script src="/scripts/modernizr.js"></script>	
+		<script src="/scripts/common.js"></script>
+	</body>
+</html>

@@ -1,0 +1,127 @@
+body {
+ 	 padding: 50px;
+ 	 font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	 width:60%;
+	 margin:auto;
+	 background:#141414;
+
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+.header{
+	background-color: #100010;
+	width: 100%;
+	margin: auto;
+	text-align:center;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #99d9ea;
+	margin-bottom:100px;
+}
+.header img {
+	margin-left:auto;
+	margin-right:auto;
+	width:200px;
+	height:200px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.header h1 {
+	padding-top:10px;
+	text-align:center;
+	font-size:110%;}
+
+.banner {
+	width:100%;
+	height:15%;
+	text-align:center;
+}
+.banner img {
+	margin-left:auto;
+	margin-right:auto;
+	width:150px;
+	height:150px;
+}
+.banner i {
+	float:left;
+}
+
+.info p {
+	border:1 px thin black;
+	text-align: center;
+}
+
+.listPeople img {
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:auto;
+	width:150px;
+	height:150px;
+
+}
+
+.listPeople  {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.listPeople form{
+	margin-left:40px;
+}
+
+.listPeople p {
+	float:right;
+	color:white;
+	text-align:left;
+	margin-right:10px;
+}
+
+.listPeople li {
+	margin-top:50px;
+	margin-bottom:50px;
+	height:220px;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+}
+
+.listPeople  li:hover .caption{
+	opacity: 1;
+}
+
+.listPeople  .caption{
+	cursor: pointer;
+	position: absolute;
+	opacity: 0;
+	-webkit-transition:all 0.45s ease-in-out;
+	-moz-transition:all 0.45s ease-in-out;
+	-o-transition:all 0.45s ease-in-out;
+	-ms-transition:all 0.45s ease-in-out;
+	transition:all 0.45s ease-in-out;
+}
+
+.listPeople  .blur{
+	background-color: rgba(0,0,0,0.65);
+	height: 80px;
+	width: 150px;
+	z-index: 10;
+	top: -150px;
+	position: absolute;
+}
+
+.listPeople  .caption-text {
+	z-index: 10;
+	position: absolute;
+	width: 150px;
+	height: 80px;
+	text-align: center;
+	top: -150px;
+	font-size: 6px;	
+}	

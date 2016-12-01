@@ -1,0 +1,25 @@
+
+.profile {
+	background-color:#3D5888;
+}
+.profile img {
+	float:left;
+	height:95px;
+}
+.profile h1 {
+	text-align:center;
+	color:#EB1E21;
+}
+.profile p{
+	text-align:center;
+}
+#map{
+	float:right;
+	width:60%;
+	height:400px;
+	margin-left:20%;
+	margin-right:20%;
+}
+.stuff{
+	text-align:center;
+}

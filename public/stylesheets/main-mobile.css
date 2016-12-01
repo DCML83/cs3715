@@ -1,0 +1,45 @@
+head {
+	transform: scale(4.0);
+	transform-origin: 10% 10%;
+}
+
+
+body {
+	transform: scale(4.0);
+	transform-origin: 10% 10%;
+}
+
+
+#map{	
+	margin-top:100px;
+	width: 800px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:100px;
+}
+
+div.location-table {
+	margin-top: 2cm;
+	text-align: center;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border: thin solid black;
+ 	caption-side: bottom;
+	border-collapse: collapse;
+	margin-bottom:100px;
+}
+
+td, th {
+	border: thin dotted gray;
+	padding: 5px;
+	color: #99d9ea;
+}
+
+th {
+	background-color: #99d9ea;
+	color: #141414;
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html>
+	<head>
+		<!-- js -->
+		 <script src="/socket.io/socket.io.js"></script>            
+		<!-- css -->
+		<link rel = "stylesheet" href="/stylesheets/login-desktop.css">
+	</head>
+	<body>
+		<div class="header">
+			<img src="/imgs/campus.jpg">
+			<h1> Welcome to memorial post </h1>
+			<h4> Please choose your user from the list beneath </h4>
+		</div>
+
+		<div class="rowO">
+			<% for(var i=0; i< 5; i++) {%>
+				<a href="http://sc-6.cs.mun.ca/profile/<%=people[i].id%>"><img src='<%= people[i].profileP %>' > </a>
+			<% } %>
+		
+		</div>
+		<div class="rowT">
+			<% for(var t=5; t<10; t++) {%>
+				<a href="http://sc-6.cs.mun.ca/profile/<%=people[t].id%>"><img src='<%= people[t].profileP %>' > </a>
+			<% } %>
+		
+		</div>
+		<div class="rowF">
+			<% for(var t=10; t<15; t++) {%>
+				<a href="http://sc-6.cs.mun.ca/profile/<%=people[t].id%>"><img src='<%= people[t].profileP %>' > </a>
+			<% } %>
+		
+		</div>
+
+		<div class="footer">
+			<h3> Copyright Stuff @ </h3>
+		</div>
+	</body>
+
+</html>

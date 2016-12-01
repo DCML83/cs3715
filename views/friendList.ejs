@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %> </title>
+    <link rel='stylesheet' href='/stylesheets/fListStyle.css' />
+  </head>
+  <body>
+
+    <div class="header"> 
+	<i id="homes"></i>
+		<a href="http://sc-6.cs.mun.ca/profile/<%=person.id%>"><img src="<%= person.profileP %>" alt="daKirs"></a>
+	</div>
+
+	<ul class="listPeople">
+		<% for(var i=0; i<names.length; i++) {%>
+				<% var found = false; %>
+				<% var sameP = false; %>
+				<% if (person != null) { %>
+					<% if (person.name === names[i].name) { %>
+						<% found = true; %>
+						<% sameP = true; %>
+					<% } %>
+				<% } %>
+				<% if (!sameP) { %>
+   				
+				<li>	
+					
+					<a href="http://sc-6.cs.mun.ca/profile/<%=names[i].id%>"><img src='<%= names[i].profileP %>'> </a>
+					<div class="caption">
+						<div class="blur">
+						</div>
+						<div class="caption-text">
+							<h1 style = "color: #99d9ea;"> <%= names[i].name %> </h1>
+						</div>
+						
+					</div>
+					
+
+					<form action="addSpecific/<%= person.id %>" method="post"> 
+					<% for(var j=0; j < person.friendList.length; j++) { %>
+						<% if ( person.friendList[j].name === names[i].name ) { %>
+							<% found = true; %>
+						<% } %>
+					<% } %>
+					<% if (!found ) { %>
+						
+						<button type="submit" name="who" value="<%= names[i].name %>" > add Friend</button>
+					<% } %>
+			    		</form>
+					<p> <%= names[i].info %>  </p>
+					
+				</li>	
+				<% } %>
+				
+		<% } %>
+	</ul>
+	
+  </body>
+</html>

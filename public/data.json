@@ -1,0 +1,221 @@
+{
+  "friends": [
+    {
+      "id": "0",
+      "name": "Michael",
+      "profileP": "/imgs/kris.gif",
+      "info": "Loves not knowing about presentations",
+      "Lat": "47.561401",
+      "Long": "-52.754076",
+      "friendList": [
+        {
+          "id": "1",
+          "name": "Kris",
+          "profileP": "/imgs/banner.png",
+          "info": "Wishes he would get extra grades for trying to work with Mongo",
+          "Lat": "47.561410",
+          "Long": "-52.754946",
+          "password": "123xyz"
+        },
+        {
+          "id": "3",
+          "name": "Rory",
+          "profileP": "/imgs/kris.gif",
+          "info": "",
+          "Lat": "47.565601",
+          "Long": "-52.758776",
+          "password": "123xyz"
+        },
+        {
+          "id": "4",
+          "name": "Mystery Man",
+          "profileP": "/imgs/kris.gif",
+          "info": "Getting A's in 3716",
+          "Lat": "47.5656561",
+          "Long": "-52.753476",
+          "password": "123xyz"
+        },
+        {
+          "id": "2",
+          "name": "Paul",
+          "profileP": "/imgs/kris.gif",
+          "info": "Loves that his kid plays video games",
+          "Lat": "47.565601",
+          "Long": "-52.758776",
+          "password": "123xyz"
+        }
+      ],
+      "password": "123xyz"
+    },
+    {
+      "id": "1",
+      "name": "Kris",
+      "profileP": "/imgs/banner.png",
+      "info": "Wishes he would get extra grades for trying to work with Mongo",
+      "Lat": "47.561410",
+      "Long": "-52.754946",
+      "friendList": [
+        {
+          "id": "2",
+          "name": "Paul",
+          "profileP": "/imgs/kris.gif",
+          "info": "Loves that his kid plays video games",
+          "Lat": "47.565601",
+          "Long": "-52.758776",
+          "password": "123xyz"
+        },
+        {
+          "id": "3",
+          "name": "Rory",
+          "profileP": "/imgs/kris.gif",
+          "info": "",
+          "Lat": "47.565601",
+          "Long": "-52.758776",
+          "password": "123xyz"
+        },
+        {
+          "id": "4",
+          "name": "Mystery Man",
+          "profileP": "/imgs/kris.gif",
+          "info": "Getting A's in 3716",
+          "Lat": "47.5656561",
+          "Long": "-52.753476",
+          "password": "123xyz"
+        },
+        {
+          "id": "0",
+          "name": "Michael",
+          "profileP": "/imgs/kris.gif",
+          "info": "Loves not knowing about presentations",
+          "Lat": "47.561401",
+          "Long": "-52.754076",
+          "password": "123xyz"
+        }
+      ],
+      "password": "123xyz"
+    },
+    {
+      "id": "2",
+      "name": "Paul",
+      "profileP": "/imgs/kris.gif",
+      "info": "Loves that his kid plays video games",
+      "Lat": "47.565601",
+      "Long": "-52.758776",
+      "friendList": [
+        {
+          "id": "0",
+          "name": "Michael",
+          "profileP": "/imgs/kris.gif",
+          "info": "Loves not knowing about presentations",
+          "Lat": "47.561401",
+          "Long": "-52.754076",
+          "password": "123xyz"
+        },
+        {
+          "id": "1",
+          "name": "Kris",
+          "profileP": "/imgs/banner.png",
+          "info": "Wishes he would get extra grades for trying to work with Mongo",
+          "Lat": "47.561410",
+          "Long": "-52.754946",
+          "password": "123xyz"
+        },
+        {
+          "id": "3",
+          "name": "Rory",
+          "profileP": "/imgs/kris.gif",
+          "info": "",
+          "Lat": "47.565601",
+          "Long": "-52.758776",
+          "password": "123xyz"
+        }
+      ],
+      "password": "123xyz"
+    },
+    {
+      "id": "3",
+      "name": "Rory",
+      "profileP": "/imgs/kris.gif",
+      "info": "",
+      "Lat": "47.565601",
+      "Long": "-52.758776",
+      "friendList": [
+        {
+          "id": "4",
+          "name": "Mystery Man",
+          "profileP": "/imgs/kris.gif",
+          "info": "Getting A's in 3716",
+          "Lat": "47.5656561",
+          "Long": "-52.753476",
+          "password": "123xyz"
+        },
+        {
+          "id": "1",
+          "name": "Kris",
+          "profileP": "/imgs/banner.png",
+          "info": "Wishes he would get extra grades for trying to work with Mongo",
+          "Lat": "47.561410",
+          "Long": "-52.754946",
+          "password": "123xyz"
+        },
+        {
+          "id": "2",
+          "name": "Paul",
+          "profileP": "/imgs/kris.gif",
+          "info": "Loves that his kid plays video games",
+          "Lat": "47.565601",
+          "Long": "-52.758776",
+          "password": "123xyz"
+        }
+      ],
+      "password": "123xyz"
+    },
+    {
+      "id": "4",
+      "name": "Mystery Man",
+      "profileP": "/imgs/kris.gif",
+      "info": "Getting A's in 3716",
+      "Lat": "47.5656561",
+      "Long": "-52.753476",
+      "friendList": [
+        {
+          "id": "1",
+          "name": "Kris",
+          "profileP": "/imgs/banner.png",
+          "info": "Wishes he would get extra grades for trying to work with Mongo",
+          "Lat": "47.561410",
+          "Long": "-52.754946",
+          "password": "123xyz"
+        },
+        {
+          "id": "2",
+          "name": "Paul",
+          "profileP": "/imgs/kris.gif",
+          "info": "Loves that his kid plays video games",
+          "Lat": "47.565601",
+          "Long": "-52.758776",
+          "password": "123xyz"
+        },
+        {
+          "id": "0",
+          "name": "Michael",
+          "profileP": "/imgs/kris.gif",
+          "info": "Loves not knowing about presentations",
+          "Lat": "47.561401",
+          "Long": "-52.754076",
+          "password": "123xyz"
+        },
+        {
+          "id": "3",
+          "name": "Rory",
+          "profileP": "/imgs/kris.gif",
+          "info": "",
+          "Lat": "47.565601",
+          "Long": "-52.758776",
+          "password": "123xyz"
+        }
+      ],
+      "password": "123xyz"
+    }
+  ]
+}

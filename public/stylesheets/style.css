@@ -1,0 +1,95 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	width:100%;
+	background-color: #8080ff;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.body {
+	
+}
+
+.header{
+				height:120px;
+				background-color:#3333ff;
+				width:100%;
+				text-align:center;
+				}
+			.header img {
+				margin-left:auto;
+				margin-right:auto;
+				width:100px;
+				height:100px;}
+			.header h1 {
+				padding-top:10px;
+				text-align:center;
+				font-size:110%;}
+
+.banner {
+	width:100%;
+	height:15%;
+	text-align:center;
+}
+.banner img {
+	margin-left:auto;
+	margin-right:auto;
+	width:100px;
+	height:100px;
+}
+.banner i {
+	float:left;
+}
+
+.info p {
+	border:1 px thin black;
+	text-align: center;
+}
+
+#first {
+	width:100px;
+	height:50px;
+	float:left;
+	margin-left:40%;
+	margin-top:70px;
+}
+#second {
+	width:182px;
+	height:200px;
+	text-align:center;
+	border-radius:100%;
+}
+
+#third {
+	width:100px;
+	height:50px;
+	float:right;
+	margin-right:40%;
+	margin-top:70px;
+}
+
+.friendScroller {
+	width:100%;
+	height: 20%;
+	text-align:center;
+}
+.friendScroller img {
+	margin-left:auto;
+	margin-right:auto;
+	width:100px;
+	height:100px;
+}
+.dalistt div{
+	background-color:#3333ff;
+	]
+.dalistt img {
+	margin-left:auto;
+	margin-right:auto;
+	width:100px;
+	height:100px;
+}
+	
+	
